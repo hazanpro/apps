@@ -1,3 +1,5 @@
-*.manifest binary
-*.application binary
-*.deploy binary
+*.application text
+*.exe.config.deploy text
+*.exe.deploy binary
+*.exe.manifest text
+*.ico.deploy binary
