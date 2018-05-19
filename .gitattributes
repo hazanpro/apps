@@ -1,1 +1,2 @@
-*.exe.deploy text
+*.exe.deploy binary
+*.exe.manifest binary
