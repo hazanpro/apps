@@ -1,2 +1,2 @@
-*.exe.deploy binary
+*.exe.* binary
 *.ico.deploy binary
