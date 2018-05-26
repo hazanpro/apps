@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="DailySAP.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
+    </startup>
+    <applicationSettings>
+        <DailySAP.Properties.Settings>
+            <setting name="Caption" serializeAs="String">
+                <value>Daily SAP Updater</value>
+            </setting>
+            <setting name="UpdateAvailable" serializeAs="String">
+                <value>You able to upgrade from version {0} to {1}\nWould you like to download and apply the update?</value>
+            </setting>
+            <setting name="UpdateUnavailable" serializeAs="String">
+                <value>Your application version {0} is up to date!</value>
+            </setting>
+            <setting name="ApplicationPath" serializeAs="String">
+                <value>{0}\\{1}\\{2}.appref-ms</value>
+            </setting>
+            <setting name="ApplicationPublisher" serializeAs="String">
+                <value>Idan Hazan</value>
+            </setting>
+            <setting name="ApplicationName" serializeAs="String">
+                <value>Daily SAP</value>
+            </setting>
+        </DailySAP.Properties.Settings>
+    </applicationSettings>
+</configuration>
